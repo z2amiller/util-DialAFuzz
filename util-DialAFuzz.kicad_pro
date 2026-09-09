@@ -754,7 +754,10 @@
       "Root"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "BOARD_STATUS": "utility",
+    "BOARD_NOTE": "dial-a-fuzz bench utility board, not an effects pedal"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
