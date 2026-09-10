@@ -25,6 +25,11 @@ for a BC-series (C, B, E) socket, plug it in reversed.
 
 ## Example: Fuzz Face
 
+PedalPCB's [SiliSmile Fuzz](https://www.pedalpcb.com/product/pcb582/) is a
+silicon NPN Fuzz Face with socketed transistors, a good host. (Their
+[Sunflower](https://www.pedalpcb.com/product/sunflower/) is PNP germanium and
+positive-ground, so this NPN board does not fit it.)
+
 Drop it into the Q1 socket with a BC847 (hFE ~300) and the trimmer covers
 roughly hFE 9 at minimum to 240 at maximum. The classic germanium Q1 range of
 70 to 100 lands around 200K to 300K. Set it the same way you would bias any
