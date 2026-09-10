@@ -1396,7 +1396,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a5fd233-7f34-4652-9297-d25042713441")
 		(property "Reference" "R2"
