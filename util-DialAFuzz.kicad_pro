@@ -266,84 +266,84 @@
     "assignments": [
       {
         "component_class": "Pot",
-        "conditions_operator": "ALL",
         "conditions": {
           "REFERENCE": {
             "primary": "RV*"
           }
-        }
+        },
+        "conditions_operator": "ALL"
       },
       {
         "component_class": "Jack",
-        "conditions_operator": "ALL",
         "conditions": {
           "REFERENCE": {
             "primary": "J*"
           }
-        }
+        },
+        "conditions_operator": "ALL"
       },
       {
         "component_class": "Switch",
-        "conditions_operator": "ALL",
         "conditions": {
           "REFERENCE": {
             "primary": "SW*"
           }
-        }
+        },
+        "conditions_operator": "ALL"
       },
       {
         "component_class": "Tall",
-        "conditions_operator": "ALL",
         "conditions": {
           "FOOTPRINT": {
             "primary": "_MB_potentiometers:*"
           }
-        }
+        },
+        "conditions_operator": "ALL"
       },
       {
         "component_class": "Tall",
-        "conditions_operator": "ALL",
         "conditions": {
           "FOOTPRINT": {
             "primary": "_MB_switches:*"
           }
-        }
+        },
+        "conditions_operator": "ALL"
       },
       {
         "component_class": "Tall",
-        "conditions_operator": "ALL",
         "conditions": {
           "FOOTPRINT": {
             "primary": "Effects_Footprints:Neutrik_NMJ6HCD2"
           }
-        }
+        },
+        "conditions_operator": "ALL"
       },
       {
         "component_class": "Tall",
-        "conditions_operator": "ALL",
         "conditions": {
           "FOOTPRINT": {
             "primary": "Effects_Footprints:Alpha_3PDT"
           }
-        }
+        },
+        "conditions_operator": "ALL"
       },
       {
         "component_class": "Tall",
-        "conditions_operator": "ALL",
         "conditions": {
           "FOOTPRINT": {
             "primary": "Capacitor_THT:CP_Radial_*"
           }
-        }
+        },
+        "conditions_operator": "ALL"
       },
       {
         "component_class": "Tall",
-        "conditions_operator": "ALL",
         "conditions": {
           "FOOTPRINT": {
             "primary": "Connector_PinSocket_2.54mm:*"
           }
-        }
+        },
+        "conditions_operator": "ALL"
       }
     ],
     "meta": {
@@ -755,8 +755,8 @@
     ]
   ],
   "text_variables": {
-    "BOARD_STATUS": "utility",
-    "BOARD_NOTE": "dial-a-fuzz bench utility board, not an effects pedal"
+    "BOARD_NOTE": "dial-a-fuzz bench utility board, not an effects pedal",
+    "BOARD_STATUS": "utility"
   },
   "tuning_profiles": {
     "meta": {
