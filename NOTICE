@@ -1,0 +1,22 @@
+Copyright 2026 Andy Miller
+
+This project describes Open Hardware and is licensed under the CERN Open
+Hardware Licence Version 2 - Permissive (CERN-OHL-P v2). See the LICENSE
+file for the full text, or https://ohwr.org/cern_ohl_p_v2.txt
+
+You may redistribute and modify this documentation and make products using
+it under the terms of the CERN-OHL-P v2.
+
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,
+INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A
+PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for applicable conditions.
+
+
+ORIGIN
+------
+
+The schematic and PCB layout in this repository are original work. The
+circuit is a textbook Widlar current split (a diode-connected transistor
+with an emitter resistor stealing base drive from a parallel transistor)
+applied to a plug-in transistor adaptor; it contains no third-party
+material.
